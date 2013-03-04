@@ -1,12 +1,12 @@
 #ifndef PARSETREE_H
 #define PARSETREE_H
 
-enum Tag {
+typedef enum {
 	NUM,
 	ADD
-};
+} Tag;
 
-struct ParseTree {
+typedef struct {
 	Tag tag;
 	union {
 		struct {
@@ -17,6 +17,6 @@ struct ParseTree {
 			struct ParseTree* right;
 		} add;
 	};
-};
+} ParseTree;
 
 #endif

@@ -1,4 +1,4 @@
-lispy
+lispish
 =====
 
-Toy Parser and Interpreter for a Lispy language
+Toy Parser and Interpreter for a Lispish language

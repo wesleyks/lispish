@@ -1,7 +1,7 @@
-CC=g++
+CC=gcc
 CFLAGS=-c -Wall
 LDFLAGS=
-SOURCES=main.c interp.c
+SOURCES=main.c parse.c interp.c
 OBJECTS=$(SOURCES:.c=.o)
 EXECUTABLE=interp
 
